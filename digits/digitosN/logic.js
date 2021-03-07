@@ -1,0 +1,11 @@
+let number = +prompt("Dame un número: ");
+let ones = number % 10;
+let remainder = number / 10;
+let tens = remainder % 10;
+remainder = remainder / 10;
+let hundreds = reaminder % 10;
+remainder = remainder / 10;
+alert(ones + " unidades\n");
+alert(tens + " decenas\n");
+alert(hundreds + " centenas\n");
+alert(remainder + " miles\n");
